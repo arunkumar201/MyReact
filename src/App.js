@@ -24,11 +24,11 @@
 
 
 
-import CallBackHook from "./components/Hooks/CallBackHook";
-import Main from "./components/Hooks/CustomHook/Main";
-import Counter from "./components/RanderProps/Counter";
-import HoverCounter from "./components/RanderProps/HoverCounter";
-import RenderProps from "./components/RanderProps/RenderProps";
+// import CallBackHook from "./components/Hooks/CallBackHook";
+// import Main from "./components/Hooks/CustomHook/Main";
+// import Counter from "./components/RanderProps/Counter";
+// import HoverCounter from "./components/RanderProps/HoverCounter";
+// import RenderProps from "./components/RanderProps/RenderProps";
 
 // import Counter from "./components/BasicPractice/Counter";
 // import UseRefForm from "./components/Forms/useRef";
@@ -102,17 +102,32 @@ import RenderProps from "./components/RanderProps/RenderProps";
 // import HookTimer from "./components/Hooks/Hooks CSS/UseRef/HookTimer";
 // import Ref from "./components/Hooks/Hooks CSS/UseRef/RefExample";
 // import TrackingSate from "./components/Hooks/Hooks CSS/UseRef/TrackingSate";
+
+import HoverCountHOC from "./components/HOC's/HoverCountHOC"
+import CounterHOC from "./components/HOC's/Counter";
+import User from "./components/HOC's/FetchingDataFiltering/User";
+import Todos from "./components/HOC's/FetchingDataFiltering/Todos";
+
+
+
+
+
+
+
+
+
+
 const App = () => {
   return (
     <>
-    {/* <FetchSingleRecordJson/> */}
+      {/* <FetchSingleRecordJson/> */}
       {/* <JsonServer/> */}
-    {/* <ForwardRef/> */}
-   {/* <HookTimer/> */}
-   {/* <TrackingSate/> */}
-   {/* <Counter/>     */}
-   {/* <UserRefHook/> */}
-    {/* <FormRef/> */}
+      {/* <ForwardRef/> */}
+      {/* <HookTimer/> */}
+      {/* <TrackingSate/> */}
+      {/* <Counter/>     */}
+      {/* <UserRefHook/> */}
+      {/* <FormRef/> */}
       {/* <Ref /> */}
       {/* <ReactMemo/> */}
       {/* <PureParentComponent/> */}
@@ -159,17 +174,13 @@ const App = () => {
       {/* <TodoList/> */}
       {/* <Useimport Effect/> */}
       {/* <Todimport */}
-      {/* <import JsonServer from "./components/Hooks/UseEffect/JsonServer";
-MountingPhaseA/> import ReactMemo from "./components/Hooks/ReactMemo";
-*/}
-
-      {/* <ComponentDidUpdate_1/> */}
+ {/* <ComponentDidUpdate_1/> */}
       {/* <ComponenetDidUp/> */}
       {/* <UnMount/> */}
       {/* <UseEffectExample/> */}
       {/* <QuoteGenerator/> */}
       {/* <Intro1/> */}
-      {/* <SideEffect/> */}  
+      {/* <SideEffect/> */}
       {/* <Portals/> */}
       {/* <Counter/> */}
       {/* <Hover/> */}
@@ -178,10 +189,16 @@ MountingPhaseA/> import ReactMemo from "./components/Hooks/ReactMemo";
       {/* <Counter_Count/> */}
       {/* <RenderProps/>*/}
       {/* <CallBackHook/> */}
-      <Main/>
+      {/* <Main/> */}
+      {/* <HoverCounter/> */}
+      {/* <Counter_Count/> */}
+      {/* <HoverCountHOC name="Arun Prajapati"/> */}
+      {/* <CounterHOC/> */}
+      <div>
+      <User/>
+      <Todos/>
+     </div> 
       
-
-     
     </>
   );
 };

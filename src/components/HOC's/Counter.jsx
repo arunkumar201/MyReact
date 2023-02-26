@@ -3,12 +3,15 @@
 import React from "react";
 import newUpdatedComponent from "./HigherOrderFun";
 
-function Counter_Count(props) {
-  return (
-    <>
-		  <button>Clicked times {this.props.name} </button>
-    </>
-  );
+class CounterHOC extends React.Component {
+  render() {
+     let { count, incrementCount } = this.props;
+    return (
+      <>
+        <button onClick={incrementCount}>Clicked times {count}</button>
+      </>
+    );
+  }
 }
 
-export default newUpdatedComponent(Counter_Count);
+export default newUpdatedComponent(CounterHOC,10)
