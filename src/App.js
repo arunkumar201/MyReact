@@ -103,11 +103,11 @@
 // import Ref from "./components/Hooks/Hooks CSS/UseRef/RefExample";
 // import TrackingSate from "./components/Hooks/Hooks CSS/UseRef/TrackingSate";
 
-import HoverCountHOC from "./components/HOC's/HoverCountHOC"
-import CounterHOC from "./components/HOC's/Counter";
-import User from "./components/HOC's/FetchingDataFiltering/User";
-import Todos from "./components/HOC's/FetchingDataFiltering/Todos";
-
+// import HoverCountHOC from "./components/HOC's/HoverCountHOC"
+// import CounterHOC from "./components/HOC's/Counter";
+// import User from "./components/HOC's/FetchingDataFiltering/User";
+// import Todos from "./components/HOC's/FetchingDataFiltering/Todos";
+import  { CounterUser } from "./Redux/CounterUser";
 
 
 
@@ -174,7 +174,6 @@ const App = () => {
       {/* <TodoList/> */}
       {/* <Useimport Effect/> */}
       {/* <Todimport */}
- {/* <ComponentDidUpdate_1/> */}
       {/* <ComponenetDidUp/> */}
       {/* <UnMount/> */}
       {/* <UseEffectExample/> */}
@@ -194,10 +193,11 @@ const App = () => {
       {/* <Counter_Count/> */}
       {/* <HoverCountHOC name="Arun Prajapati"/> */}
       {/* <CounterHOC/> */}
-      <div>
-      <User/>
-      <Todos/>
-     </div> 
+      {/* <d////iv> */}
+      {/* <User/> */}
+      {/* <Todos/> */}
+     {/* </div>  */}
+     <CounterUser/>
       
     </>
   );
